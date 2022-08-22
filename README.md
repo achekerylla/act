@@ -183,6 +183,7 @@ It will save that information to `~/.actrc`, please refer to [Configuration](#co
   -j, --job string                                  run job
   -l, --list                                        list workflows
       --no-recurse                                  Flag to disable running workflows from subdirectories of specified path in '--workflows'/'-W' flag
+      --no-skip-checkout                            Do not skip actions/checkout (default false)
   -P, --platform stringArray                        custom image to use per platform (e.g. -P ubuntu-18.04=nektos/act-environments-ubuntu:18.04)
       --privileged                                  use privileged mode
   -p, --pull                                        pull docker image(s) even if already present
